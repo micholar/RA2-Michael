@@ -1,0 +1,166 @@
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  margin: 0;
+  padding: 0;
+  transition: all .2s ease-in;
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+header {
+    background-color: #c2412b;
+    color: white;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    font-style: italic;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav ul {
+    background-color: #963221;
+    list-style: none;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#inicio {
+    background-color: #c2412b;
+}
+
+nav ul li a:hover {
+    background-color: #c2412b;
+}
+
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.container {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.bienvenida {
+    margin: 30px 80px 20px;
+}
+
+.desc {
+    border-radius: 5px;
+    border: 1px solid #96332150;
+    background-color: rgb(231, 231, 200);
+    padding: 1.5em;
+    margin-left: 80px;
+    text-align: justify;
+    width: 720px;
+}
+
+.desc hr {
+    margin: 12px 0;
+    border: none;
+    height: 1px;
+    width: auto;
+    background: linear-gradient(to right, #c2412b, #96332150) ;
+}
+
+h2 {
+    color: #c2412b;
+}
+
+.receta {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: white;
+}
+
+.ejemplo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ejemplo h4 {
+    margin: 8px 0;
+}
+
+.ejemplo p {
+    text-align: justify;
+}
+
+.ejemplo-a {
+    background-color: rgb(245, 245, 190);
+    font-size: 13px;
+    width: 320px;
+    padding: 12px;
+    border-radius: 3px;
+    border: 1px solid #96332150;
+    color: rgb(20, 20, 20);
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: 80px;
+}
+
+.ejemplo-a:hover {
+    transform: scale(102%);
+}
+
+#ej-img {
+    margin-top: 8px;
+    width: 95%;
+    border-radius: 6px;
+}
+
+
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #963221;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.c {
+    font-weight: bold;
+    text-decoration: none;
+    color: gainsboro;
+}
+
+.c:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}

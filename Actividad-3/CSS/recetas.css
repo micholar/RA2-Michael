@@ -1,0 +1,146 @@
+
+* {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+    transition: all .2s ease-in;
+  }
+  
+  body {
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+  }
+  
+  /*- - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  
+  header {
+      background-color: #c2412b;
+      color: white;
+      height: 120px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: center;
+  }
+  
+  h1 {
+      margin: 0;
+      padding: 0;
+      margin-top: 20px;
+      font-style: italic;
+      font-weight: 700;
+      font-family: 'Times New Roman', Times, serif;
+  }
+  
+  nav ul {
+      background-color: #963221;
+      list-style: none;
+      padding: 10px 0;
+  }
+  
+  nav ul li {
+      display: inline;
+      margin: 0 1rem;
+  }
+  
+  nav ul li a {
+      padding: 10px;
+      color: white;
+      text-decoration: none;
+  }
+  
+  #recetas {
+      background-color: #c2412b;
+  }
+  
+  nav ul li a:hover {
+      background-color: #c2412b;
+  }
+  
+  /*- - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  
+  h3 {
+    margin-top: 20px;
+    margin-left: 95px;
+    color: #c2412b;
+  }
+
+  .hrr {
+    height: 4px;
+    width: 100px;
+    background-color: #963221;
+    border: none;
+    margin: 10px 0 30px 95px;
+  }
+
+  .recetas {
+    display: grid;
+    grid-template-columns: repeat(5, 230px);
+    place-items: center;
+    place-content: center;
+  }
+
+  .receta {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #96322190;
+    width: 200px;
+    height: 250px;
+    text-decoration: none;
+    color: rgb(19, 19, 19);
+    padding-bottom: 10px;
+  }
+
+  .receta h5 {
+    margin-top: 8px;
+    margin-left: 10px;
+  }
+
+  .receta p {
+    padding-right: 10px;
+    margin-left: 10px;
+  }
+
+  .hr-r {
+    height: 4px;
+    width: 50px;
+    background-color: #963221;
+    border: none;
+    margin: 6px 0 10px 10px;
+  }
+
+  .r-img {
+    width: 200px;
+    height: 125px;
+  }
+
+  /*- - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  
+  footer {
+    margin-top: 11ex;
+      text-align: center;
+      padding: 1rem;
+      background-color: #963221;
+      color: white;
+      bottom: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  footer h2 {
+      color: white;
+      margin-bottom: 10px;
+  }
+  
+  .c {
+      font-weight: bold;
+      text-decoration: none;
+      color: gainsboro;
+  }
+  
+  .c:hover {
+      color: rgb(255, 255, 255);
+      text-decoration: underline;
+  }

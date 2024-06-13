@@ -1,0 +1,114 @@
+
+* {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+    transition: all .2s ease-in;
+  }
+  
+  body {
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+  }
+  
+  /*- - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  
+  header {
+      background-color: #c2412b;
+      color: white;
+      height: 120px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: center;
+  }
+  
+  h1 {
+      margin: 0;
+      padding: 0;
+      margin-top: 20px;
+      font-style: italic;
+      font-weight: 700;
+      font-family: 'Times New Roman', Times, serif;
+  }
+  
+  nav ul {
+      background-color: #963221;
+      list-style: none;
+      padding: 10px 0;
+  }
+  
+  nav ul li {
+      display: inline;
+      margin: 0 1rem;
+  }
+  
+  nav ul li a {
+      padding: 10px;
+      color: white;
+      text-decoration: none;
+  }
+  
+  #recetas {
+      background-color: #c2412b;
+  }
+  
+  nav ul li a:hover {
+      background-color: #c2412b;
+  }
+  
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.receta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.receta-imagen {
+    flex: 0 0 45%;
+    margin-right: 20px;
+}
+
+.receta-imagen img {
+    width: 500px;
+    border-radius: 8px;
+}
+
+.receta-contenido {
+    flex: 1;
+}
+/*- - --  - - - -- - - - - - - - - - - - -- -*/
+footer {
+    background-color: #963221;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer h2 {
+    margin-bottom: 10px;
+}
+
+.c {
+    font-weight: bold;
+    text-decoration: none;
+    color: gainsboro;
+}
+
+.c:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
